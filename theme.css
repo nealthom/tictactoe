@@ -1,0 +1,103 @@
+html,body{
+	
+	
+	background-color:black;
+	font-family: 'Indie Flower', cursive;
+	width:100%;
+	height:100%;
+	
+	
+	color: #9900FF;
+}
+
+
+
+
+
+
+
+.box{
+	width: 125px;
+	height:135px;
+	
+	text-align: center;
+	position: absolute;
+	font-size: 8em;
+	
+	
+}
+#board{
+	z-index: 101;
+	position:relative;
+	top: calc(50% - 250px);
+	left: calc(50% - 250px);
+	width:500px;
+	height:500px;
+	background-color:black;
+	background-repeat: no-repeat;
+	background-image: url("board.png");
+	background-size: 500px;
+
+}
+#menu{
+z-index: 1000;
+width: 100%;
+height: 100%;
+background-color: black;
+position:absolute;
+color: #00f3ff;
+text-align: center;
+
+}
+
+.left{
+
+	left: 1.5%;
+
+}
+.bottom{
+
+	top: 73%
+
+}
+.middle{
+
+	left: 37%;
+}
+
+.right{
+	left: 72%;
+}
+.mid{
+	top: 37%;
+}
+.top{
+	top: 0;
+}
+#mtext{
+	font-size: 2em;
+	position:absolute;
+	top: 50%;
+	
+
+}
+#selectx{
+
+	font-size: 6em;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	color: #9900FF;
+	
+}
+
+#selecto{
+
+	font-size: 6em;
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	color: #FF0066;
+
+}
+
